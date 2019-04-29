@@ -1,1 +1,11 @@
-{"logourl":"http:\/\/localhost\/nereusv2\/wp-content\/plugins\/admin-change-image\/Logo_Nereus.png","logosize":"2","imageurl":"http:\/\/localhost\/nereusv2\/wp-content\/plugins\/admin-change-image\/bglogin.JPG","imagesize":"cover","radiusbox":"15"}
+{
+  "lienurl": "Check",
+  "logoalt": "Go to Nereus !",
+  "logourl": "http:\/\/localhost\/nereusv2\/wp-content\/plugins\/admin-change-image\/Logo_Nereus.png",
+  "logosize": "2",
+  "imageurl": "http:\/\/localhost\/nereusv2\/wp-content\/plugins\/admin-change-image\/bglogin.JPG",
+  "imagesize": "cover",
+  "effetvignettage": "Active",
+  "radiusbox": "15",
+  "colortext": ""
+}

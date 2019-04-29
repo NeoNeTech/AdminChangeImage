@@ -1,3 +1,53 @@
 .inputText {
   width: 50%;
+  background-color: white;
+  padding: 10px;
+  border-color: #e6e6e6;
+  border-radius: 5px;
+}
+
+.inputNum {
+  background-color: white;
+  border-color: #e6e6e6;
+  border-radius: 5px;
+}
+
+.aci_footer {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+}
+
+.version {
+  border-style: none none none solid;
+  border-color: #00db0a;
+  border-width: 4pt;
+  padding: 10px;
+  background-color: #e6e6e6;
+  width: 5%;
+  font-size: 14pt;
+  animation: version-anim 5s infinite;
+  margin-top: 15px;
+}
+
+.infos {
+  font-size: 12pt;
+}
+
+@keyframes version-anim {
+  0% {
+    border-color: #00db0a;
+  }
+
+  25% {
+    border-color: #db9a00;
+  }
+
+  50% {
+    border-color: #db0000;
+  }
+
+  100% {
+    border-color: #00db0a;
+  }
 }
