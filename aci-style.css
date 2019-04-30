@@ -18,6 +18,10 @@
   padding-right: 20px;
 }
 
+.nav-tab:active {
+  color: #00a0d2;
+}
+
 .version {
   border-style: none none none solid;
   border-color: #00db0a;
@@ -32,6 +36,19 @@
 
 .infos {
   font-size: 12pt;
+}
+
+.previewBanner {
+  float: right;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+form {
+  width: 75%;
 }
 
 @keyframes version-anim {
