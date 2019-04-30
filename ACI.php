@@ -4,7 +4,7 @@ Plugin Name: Admin Change Image
 Plugin URI: https://nereus-water.com
 Description: Plugin réaliser pour NEREUS Water, afin de pouvoir changer le logo dans l'interface de connexion
 Author: Quentin LLOVERAS
-Version: 0.2.0
+Version: 0.2.1
 Author URI: https://github.com/NeoNeTech
 */
 define("ACIFOLDER", plugin_dir_url( __FILE__ ));
@@ -33,8 +33,8 @@ function aci_settings(){
   <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
   <h1>Admin Change Image Settings</h1>
   <h2 class="nav-tab-wrapper">
-        <a href="#options" class="nav-tab"><?php _e( 'Options', 'textdomain' ); ?></a>
-        <a href="#informations" class="nav-tab"><?php _e( 'À propos', 'textdomain' ); ?></a>
+        <a href="#" id="option-click" class="nav-tab"><?php _e( 'Options', 'textdomain' ); ?></a>
+        <a href="#" id="info-click" class="nav-tab"><?php _e( 'À propos', 'textdomain' ); ?></a>
   </h2>
 
   <div id="options" class="tabs">
@@ -86,6 +86,10 @@ function aci_settings(){
   <div class="version"><span>V <?php echo ACIVERSION; ?></span></div>
   <p class="infos">Admin Change Image à étais conçu dans le cadre d'un stage pour l'entreprise <a href="https://nereus-water.com" target="_blank">Nereus Water</a></p>
   <h2>Changelog :</h2>
+    <h3>V 0.2.1 : Correction de bug</h3>
+    <ul>
+      <li>Correction de bug sur le système d'onglet</li>
+    </ul>
     <h3>V 0.2.0 : Correction de bug & Implémentation d'options</h3>
     <ul>
       <li>Ajout d'un système d'onglet</li>
