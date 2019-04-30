@@ -78,7 +78,7 @@ function aci_settings(){
   <br/>
   <h2>Texte :</h2>
   <label for="color-text">Couleur :</label>
-  <input type="text" vsalue="<?php echo $settings->colortext; ?>" name="color-text" class="my-color-field" data-default-color="<?php echo $settings->colortext; ?>" />  <br/>
+  <input type="text" value="<?php echo $settings->colortext; ?>" name="color-text" class="my-color-field" data-default-color="<?php echo $settings->colortext; ?>" />  <br/>
   <?php submit_button(); ?>
 </form>
 <div class="previewBanner">
