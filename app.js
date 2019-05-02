@@ -1,3 +1,4 @@
+// Begin ColorPicker //
 var myOptions = {
   defaultColor: true,
   change: function(event, ui) {},
@@ -7,37 +8,42 @@ var myOptions = {
 };
 
 $('.my-color-field').wpColorPicker(myOptions);
+// End Colorpicker //
 
-$(document).ready(function(){
+// Begin Tabs //
+$(document).ready(function() {
   $("#informations").hide();
   $("#preview").hide();
-  $("#option-click").click(function(){
+  $("#option-click").click(function() {
     $("#options").show();
     $("#informations").hide();
     $("#preview").hide();
   });
-  $("#preview-click").click(function(){
+  $("#preview-click").click(function() {
     $("#options").hide();
     $("#informations").hide();
     $("#preview").show();
   });
-  $("#info-click").click(function(){
+  $("#info-click").click(function() {
     $("#options").hide();
     $("#informations").show();
     $("#preview").hide();
+  });
 });
-});
+// End Tabs //
 
-$( "#text-url" )
+// Begin Preview //
+$("#text-url")
   .keyup(function() {
-    var value = $( this ).val();
-    $( "#imgOutput" ).attr( "src", value );
+    var value = $(this).val();
+    $("#imgOutput").attr("src", value);
   })
   .keyup();
 
-  $( "#bg-url" )
-    .keyup(function() {
-      var value = $( this ).val();
-      $( "#bgOutput" ).attr( "src", value );
-    })
-    .keyup();
+$("#bg-url")
+  .keyup(function() {
+    var value = $(this).val();
+    $("#bgOutput").attr("src", value);
+  })
+  .keyup();
+// End Preview //
