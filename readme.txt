@@ -49,6 +49,32 @@ R : Rendez-vous dans le dossier de l’extensions (wp-content --> plugins --> ad
 
 == Changelog ==
 
+V 0.2.5 : Preview Mode
+
+    Prévisualisation du logo
+    Prévisualisation de l'arrière plan
+    Ajout de l'onglet Preview qui permet d'avoir un aperçu de la page de login sans ce déconnecté
+
+V 0.2.1 : Correction de bug
+
+    Correction de bug sur le système d'onglet
+
+V 0.2.0 : Correction de bug & Implémentation d'options
+
+    Ajout d'un système d'onglet
+    Possibilité de redirigé le logo sur la page d'accueil
+    Possibilité d'ajouter un texte au survol du logo
+    Ajout d'un effet vignettage
+    Possibilité de modifier la couleur du texte
+
+V 0.1.0 : Les bases sont posées
+
+    Possibilité de modifier le logo
+    Possibilité de modifier la taille du logo
+    Possibilité l'arrière plan
+    Possibilité d'ajuster la taille de l'arrière plan
+    Possibilité d'ajouter des coins arrondis à la login box
+
 
 == Upgrade Notice ==
 
