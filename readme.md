@@ -1,3 +1,10 @@
+<div style="display:flex;justify-content:space-around;"><img src="https://img.shields.io/badge/version-0.2.5-green.svg"/>
+<img src="https://img.shields.io/github/repo-size/NeoNeTech/AdminChangeImage.svg"/>
+<img src="https://img.shields.io/github/languages/count/NeoNeTech/AdminChangeImage.svg?color=green"/>
+<img src="https://img.shields.io/github/license/NeoNeTech/AdminChangeImage.svg"/>
+<a href="https://lgtm.com/projects/g/NeoNeTech/AdminChangeImage/context:javascript"><img alt="Language grade: JavaScript" src="https://img.shields.io/lgtm/grade/javascript/g/NeoNeTech/AdminChangeImage.svg?logo=lgtm&logoWidth=18"/></a>
+<br />
+</div>
 === Admin Change Image ===
 Contributors: Quentin LLOVERAS
 Donate link: https://paypal.me/quentinlloveras
@@ -29,19 +36,19 @@ Principale fonctionnalité :
 
 == Frequently Asked Questions ==
 
-Q : Mon site à une page blanche suite à l’installation du plugin ou d’une mise à jour Wordpress. Que faire ?
+Q : Mon site à une page blanche suite à l’installation du plugin ou d’une mise à jour Wordpress. Que faire ?<br />
 R : Il faut se rendre sur le serveur FTP puis : wp-content --> plugins et supprimer le dossier « admin-change-image-v025 ». Après cela l’accès au site devrais être rétabli.
 
-Q : J’ai modifié des paramètres mais ils ne se mettent pas à jour sur la page de configuration.
+Q : J’ai modifié des paramètres mais ils ne se mettent pas à jour sur la page de configuration.<br />
 R : Il suffit de recharger la page afin de voir les modifications.	
 
-Q : J’ai fait tout mes configurations mais je n’ai rien qui s’affiche sur la page de connexion.
+Q : J’ai fait tout mes configurations mais je n’ai rien qui s’affiche sur la page de connexion.<br />
 R : Recharger la page, si cela ne fonctionne pas, supprimé les cookies.
 
-Q : J’ai effectué tout mes modifications mais rien ne s’affiche dans l’onglet Preview.
+Q : J’ai effectué tout mes modifications mais rien ne s’affiche dans l’onglet Preview.<br />
 R : Assurez vous d’avoir bien enregistrer les modifications avant de vous rendre dans l’onglet preview.
 
-Q : Je souhaite mettre les mains dans le cambouis et changer mes valeurs dans le code comment faire ?
+Q : Je souhaite mettre les mains dans le cambouis et changer mes valeurs dans le code comment faire ?<br />
 R : Rendez-vous dans le dossier de l’extensions (wp-content --> plugins --> admin-change-image-v025) puis ouvrez le fichier « settings.json » dans l’éditeur de code de votre choix (Atom, Notepadd++) et ici vous aurez accès à tous les paramètres.
 
 == Screenshots ==
