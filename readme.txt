@@ -9,16 +9,16 @@ Requires PHP: 5.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Plugin r�aliser pour NEREUS Water, afin de pouvoir changer le logo dans l'interface de connexion
+Plugin réaliser pour NEREUS Water, afin de pouvoir changer le logo dans l'interface de connexion
 
 == Description ==
 
-Plugin r�aliser pour NEREUS Water, afin de pouvoir changer le logo dans l'interface de connexion.
+Plugin réaliser pour NEREUS Water, afin de pouvoir changer le logo dans l'interface de connexion.
 
-Principale fonctionnalit� :
+Principale fonctionnalité :
 
 * Modification du login admin
-* Mode preview, regarder vos modification sans m�me vous d�connect� !
+* Mode preview, regarder vos modification sans même vous déconnecté !
 * Ajout d'effet tel que Vignettage
 
 == Installation ==
@@ -29,6 +29,20 @@ Principale fonctionnalit� :
 
 == Frequently Asked Questions ==
 
+Q : Mon site à une page blanche suite à l’installation du plugin ou d’une mise à jour Wordpress. Que faire ?
+R : Il faut se rendre sur le serveur FTP puis : wp-content --> plugins et supprimer le dossier « admin-change-image-v025 ». Après cela l’accès au site devrais être rétabli.
+
+Q : J’ai modifié des paramètres mais ils ne se mettent pas à jour sur la page de configuration.
+R : Il suffit de recharger la page afin de voir les modifications.	
+
+Q : J’ai fait tout mes configurations mais je n’ai rien qui s’affiche sur la page de connexion.
+R : Recharger la page, si cela ne fonctionne pas, supprimé les cookies.
+
+Q : J’ai effectué tout mes modifications mais rien ne s’affiche dans l’onglet Preview.
+R : Assurez vous d’avoir bien enregistrer les modifications avant de vous rendre dans l’onglet preview.
+
+Q : Je souhaite mettre les mains dans le cambouis et changer mes valeurs dans le code comment faire ?
+R : Rendez-vous dans le dossier de l’extensions (wp-content --> plugins --> admin-change-image-v025) puis ouvrez le fichier « settings.json » dans l’éditeur de code de votre choix (Atom, Notepadd++) et ici vous aurez accès à tous les paramètres.
 
 == Screenshots ==
 
